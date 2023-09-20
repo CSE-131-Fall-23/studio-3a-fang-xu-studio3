@@ -16,7 +16,7 @@ public class Sieve {
 		
 		for(int j=2; j<=Math.sqrt(n); j++ ) 
 		{
-			for(int i=j+j;i<=40 ;i=i+j) 
+			for(int i=j+j;i<=n ;i=i+j) 
 			{
 				if (array[i-2]==i) 
 				{
